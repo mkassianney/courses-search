@@ -8,20 +8,24 @@
             "email": "eduardakassianney.wallon@gmail.com"
         }
     ],
+    
     "require": {
         "guzzlehttp/guzzle": "^7.9",
         "symfony/dom-crawler": "^7.1",
         "symfony/css-selector": "^7.1"
     }, 
+
     "autoload": {
         "psr-4": {
             "Test\\Searching\\" : "src/"
         }
     },
+
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.10",
         "phan/phan": "*"
     }, 
+
     "scripts": {
     "cs": "phpcs --standard=PSR12 src/",
     "phan": "phan --allow-polyfill-parser",
@@ -30,11 +34,16 @@
         "@phan",
         "@cs"
     ],
+
     "post-update-cmd": [
         "@cs"
     ]
-    }, 
+    },
+
     "scripts-descriptions": {
-    "check": "Verify the code. PHAN e PHPCS"
-    }
+        "check": "Verify the code. PHAN e PHPCS"
+    
+    },
+
+    "bin": "SearchingCourses.php"
 }
