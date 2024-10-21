@@ -8,7 +8,7 @@
             "email": "eduardakassianney.wallon@gmail.com"
         }
     ],
-    
+
     "require": {
         "guzzlehttp/guzzle": "^7.9",
         "symfony/dom-crawler": "^7.1",
@@ -43,7 +43,5 @@
     "scripts-descriptions": {
         "check": "Verify the code. PHAN e PHPCS"
     
-    },
-
-    "bin": "SearchingCourses.php"
+    }
 }
